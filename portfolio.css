@@ -1,0 +1,37 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.name {
+    padding: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.main-container1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.m1child1 {
+    width: 50%;
+    margin: 10px;
+    padding: 15px;
+}
+
+.m1t1,
+.m1p1 {
+    margin-top: 5px;
+}
+
+.profilepic {
+    height: 500px;
+    float: left;
+    margin-right: 0;
+}
