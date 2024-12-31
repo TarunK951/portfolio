@@ -9,29 +9,105 @@ body {
 }
 
 .name {
+    background-color: #555555;
     padding: 15px;
-    margin-top: 5px;
-    margin-left: 10px;
+    padding-left: 40px;
 }
 
-.main-container1 {
+.m1t1n {
+    text-decoration: underline rgb(29, 107, 29);
+}
+
+.basic-info {
+    background-color: #777777;
     display: flex;
     justify-content: flex-start;
 }
 
 .m1child1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 50%;
     margin: 10px;
-    padding: 15px;
+    padding: 25px;
 }
 
-.m1t1,
+.m1t1 {
+    padding: 5px;
+}
+
 .m1p1 {
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contactinfo {
+    padding-top: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.con {
+    text-decoration: underline rgb(25, 133, 25);
+}
+
+.contactinfo h3,
+h5 {
+    padding: 3px;
 }
 
 .profilepic {
     height: 500px;
-    float: left;
-    margin-right: 0;
+}
+
+.subjects {
+    background-color: #555555;
+}
+
+.first-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.second-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.project-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project-head h4 {
+    padding-bottom: 5px;
+    text-decoration: underline rgb(29, 87, 29);
+}
+
+.projects {
+    background-color: #777777;
+    padding: 20px;
+}
+
+.projects h2 {
+    padding-left: 10px;
+}
+
+.projects img {
+    width: 100px;
+    padding: 20px;
+}
+
+.projects-info {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }
